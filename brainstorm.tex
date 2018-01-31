@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+
+\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+\usepackage{authblk}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{biblatex}
+
+\bibliography{references.bib}
+
+\newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
+
+\title{Brain Storm AutoMaths}
+\author{brando90, kappa666\footnote{ MIT, \email{brando90, kappa666}}}
+
+\makeatletter
+\let\inserttitle\@title
+\let\insertauthor\@author
+\makeatother
+
+\begin{document}
+
+\begin{center}
+  \LARGE{\inserttitle}
+
+  \Large{\insertauthor}
+\end{center}
+
+\section{Background}
+
+TODO
+
+\section{Research Problem}
+
+Automate mathematics. Automating the creativity process of forming questions and answering them. 
+
+\section{Ideas}
+
+\begin{enumerate}
+\item generate a data set of questions of mathematics
+\item we could frame it as a generation of questions. As a generative problem we could try methods that generate formal language/mathematics.
+\item as a first benchmark method to compare everything that comes could be a GAN. Probably won't work great but its a benchmark. The idea is that it would learn from the data bank of mathematical question to form new mathematical questions. It would be nice if it made maths that actually made sense
+\item one problem I've thought is that lots of maths includes natural language unfortunately, how to skip this issue? Is all the questions phrased essentially in a formal language?
+\item whats the format for the questions? (language written, formal vs natural)
+\item can we write the set of decidable problems in maths (to avoid the halting problem, that alpha go does NOT run into), for the formal/axiom system for it?
+\item we can also collect the set of human relevant conjectures (cuz an arbitrary maths statement could just be a trivial conjecture...)
+\item probably some relation to the sort of questions humans actually care about
+\item fmri, mri brain stuff and its relations to language
+\item cool links: %https://mathoverflow.net/questions/285207/is-there-research-on-human-oriented-theorem-proving,
+%https://www.youtube.com/watch?v=OLxbIXwpMes&feature=youtu.be
+\item 
+\end{enumerate}
+
+\section{execution ideas}
+
+\begin{enumerate}
+\item UROP project?
+\item we could collect the data set
+\item Can obsidean systems help?
+\item MEng thesis
+\end{enumerate}
+
+\printbibliography
+
+\end{document}
