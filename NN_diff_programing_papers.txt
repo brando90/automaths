@@ -1,0 +1,29 @@
+some links on differentiable computing/programs:
+
+External Memory Ideas
+-https://arxiv.org/pdf/1410.5401.pdf
+-https://www.nature.com/articles/nature20101
+
+Inferring programs and reasoning
+-inferring programs (printed): https://arxiv.org/pdf/1705.03633.pdf
+-code: http://cs.stanford.edu/people/jcjohns/iep/
+-neural module networks (printed): https://arxiv.org/abs/1511.02799
+-Human-like algebraic reasoning (printed): https://arxiv.org/abs/1704.07503
+-programmable agents (printed): https://arxiv.org/pdf/1706.06383.pdf
+-learning to reason: end-to-end model networks (printed): https://arxiv.org/pdf/1704.05526.pdf
+
+Catastrophic forgetting/transfer learning
+-One model to learn them all (printed): https://arxiv.org/pdf/1706.05137.pdf
+-Overcoming catastrophic forgetting (printed): https://arxiv.org/pdf/1612.00796.pdf
+
+Mathematics with NNs
+-learning to solve and explain algebraic problems (printed): https://arxiv.org/pdf/1705.04146.pdf
+-how well do computers solve math problems? (printed):  https://www.aclweb.org/anthology/P/P16/P16-1084.pdf
+-deep sequence models for premise selection (printed): https://arxiv.org/pdf/1606.04442.pdf
+Mathematics by Machine: http://delivery.acm.org/10.1145/2630000/2627488/p1-arai.pdf?ip=18.189.36.99&id=2627488&acc=ACTIVE%20SERVICE&key=7777116298C9657D%2EDE5F786C30E1A3B4%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=963031007&CFTOKEN=57534130&__acm__=1501095095_733ccbf3a639b41abb04e73993ffeffc
+multi-objective design based on symbolic computation: http://catalog.lib.kyushu-u.ac.jp/handle/2324/15589/JMI2009B-8.pdf
+
+Note: as a word of warning, lots of the links are biased towards NNs models.
+It would be interesting to reflect if this is the right models/framework/paradigm
+to do this or if perhaps there is a different option. Lets make sure we don't
+get trapped in the hype.
