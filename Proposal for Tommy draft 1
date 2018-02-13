@@ -1,0 +1,21 @@
+Are you interested in helping to shape the future of mathematics by working towards an AI system capable of mathematical reasoning? If yes, give us a call.
+
+Project description:
+Artificial neural networks are showing great promise at processing sensory information, finding patterns in data or playing games, so it seems natural to ask whether they can be applied to the uniquely human discipline of asking and answering mathematical questions. Overcoming the challenges of this problem will provide a clearer path towards other high cognitive tasks.
+
+To understand how to tackle mathematical reasoning, we might want to take inspiration from how mathematics is performed in human brain. While the exact mechanisms remain elusive, evidence from some fMRI studies suggests that language might play minimal role and the main neural circuits involved are those providing intuitive understanding of space, time and numbers. If this is true, then two large projects of the CBMM on visual intelligence and intuitive physics models of the world might provide crucial insights.
+
+As a first step to realize this goal, we propose a system that would learn from a database of mathematical statements and questions and then generate new statements that are both meaningful and human readable as well as solve problems. This will first require both designing a useful data set of  of meaningful statements and questions, as well as proposing a model for this task that is able to learn, reason and incorporate new experience in its memory. 
+
+We are thus searching for students to work on the following projects:
+1. Generate a database of mathematical questions and statements to which unsupervised learning methods can be applied. As this is a monumental task, we plan to restrict this to subfields of mathematics relevant to research in CBMM: linear algebra, analysis/calculus and geometry (not only Euclidean).
+2. Create a benchmark for the generative process from the database to measure “success”. This would take the form of providing a way to verify if questions/statements generated are meaningful to humans, as well as making use of this metric – for example by providing a tool for finding relations useful for human mathematicians, or working on a module capable of solving these questions, figuring out relations and patterns in questions and answers, paving a way to a recurrent framework generating and answering its own questions, culminating in a human-inspired AI mathematician.
+We expect students working on these two project to cooperate very closely, since the database to learn from has to be designed in a format usable by the application in mind.
+
+Requirements:
+Computing Experience: 
+at least 6.009 or equivalent
+or software internship
+Mathematics basis: knowledge of linear algebra, Analysis/Calculus, Geometry. If you think your favorite field should be represented, make a case for it.
+Some knowledge of machine learning would be beneficial.
+Previous research experience would be an asset.
